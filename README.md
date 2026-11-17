@@ -52,7 +52,7 @@ graph TD
     end
 
     subgraph Unraid ["Unraid Storage & Compute Server (192.168.0.8)"]
-        CPU[Ryzen 5 5600X | 32GB DDR4]
+        CPU["Ryzen 5 5600X | 32GB DDR4"]
         GPU[NVIDIA GTX 1060<br/>NVDEC Hardware Decoding]
         Frigate[Frigate NVR Docker<br/>Port 5000 API / 8971 WebUI]
         WDPurple[(WD Purple Surveillance HDD<br/>Unassigned Device - XFS)]
