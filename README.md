@@ -37,9 +37,9 @@ graph TD
     end
 
     subgraph ProxieCluster ["3-Node Proxmox VE Cluster (10-Inch 3D Printed Rack)"]
-        P1[ProxieOne<br/>i5 8500T | 16GB RAM | ZFS]
-        P2[ProxieTwo<br/>Dell Wyse 5070 | ZFS]
-        P3[ProxieThree<br/>Dell Wyse 5070 | ZFS]
+        P1["ProxieOne<br/>i5 8500T | 16GB RAM | ZFS"]
+        P2["ProxieTwo<br/>Dell Wyse 5070 | ZFS"]
+        P3["ProxieThree<br/>Dell Wyse 5070 | ZFS"]
         
         HAOS[Home Assistant OS VM<br/>HA Failover & ZFS Replication]
         MQTT[Mosquitto MQTT Broker<br/>192.168.0.27:1883]
